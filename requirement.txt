@@ -1,5 +1,17 @@
-scikit-learn
-pandas
-numpy
-matplotlib
-seaborn
+import os
+json
+zipfile import ZipFile
+PIL import Image
+numpy as np
+matplotlib.pyplot as plt
+matplotlib.image as mpimg
+tensorflow.keras.preprocessing.image import ImageDataGenerator
+tensorflow.keras import layers, models
+Sequential()
+layers.Conv2D(( ), activation='relu', input_shape=(img_size, img_size, 3)
+layers.MaxPooling2D()
+layers.Conv2D(, (), activation='relu')
+layers.MaxPooling2D()
+layers.Flatten()
+layers.Dense(, activation='relu')
+layers.Dense(train_generator.num_classes, activation='softmax')
